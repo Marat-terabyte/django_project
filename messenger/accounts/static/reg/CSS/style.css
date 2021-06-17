@@ -1,0 +1,35 @@
+#form_div{
+	padding-top: 200px;
+	padding-left: 470px;
+}
+
+input:hover{
+	transition-duration: 2s;
+	width: 280px;
+	padding-top:20px;
+	border-bottom: 1px solid #8fc9ff;
+}
+
+input:focus{
+	outline: none;
+	transition-duration: 2s;
+	padding-top:20px;
+	width: 280px;
+	border-bottom: 1px solid #8fc9ff;	
+}
+
+.input_field{
+	width: 250px;
+	padding-bottom: 10px;
+	border:none;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.fields{
+	padding-bottom: 15px;
+}
+
+#submit_div{
+	padding-top: 5px;
+	padding-left: 105px;
+}

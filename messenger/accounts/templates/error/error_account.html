@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'error/style_error.css' %}">
+	<title>Вы не авторизованы</title>
+</head>
+<body>
+	<div id="link">
+		<a id="reg" href="registration">Регистрация</a>
+		<a id="auth" href="authorization">Авторизация</a>
+	</div>
+	<div id="p"><h1>Вы не авторизованы!</h1></div>
+</body>
+</html>

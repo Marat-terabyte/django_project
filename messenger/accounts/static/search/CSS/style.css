@@ -1,0 +1,33 @@
+#search_div{
+	padding-left:500px;
+	padding-bottom: 15px;
+
+	border-bottom: 1px solid #ccc;
+}
+
+#search{
+	border:0.1px solid #ccc;
+	height: 20px;
+	border-radius: 5px;
+	width: 200px;
+}
+
+#search:focus{
+	outline: none;
+	transition-duration: 2s;
+	width: 250px;
+}
+
+#search:hover{
+	transition-duration: 2s;
+	width: 250px;
+}
+
+#links_div{
+	padding-top: 20px;
+	border-right: 1px solid black;
+}
+
+.links{
+	padding-bottom: 5px;
+}

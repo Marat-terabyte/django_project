@@ -1,0 +1,38 @@
+#forma{
+	padding-top: 230px;
+	padding-left: 470px;
+}
+
+.inputs_div{
+	padding-bottom: 20px;
+}
+
+input{
+	width: 250px;
+
+	border:none;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+input:hover{
+	transition-duration: 2s;
+	width: 280px;
+	padding-top:20px;
+	border-bottom: 1px solid #8fc9ff;
+}
+
+input:focus{
+	outline: none;
+	transition-duration: 2s;
+	padding-top:20px;
+	width: 280px;
+	border-bottom: 1px solid #8fc9ff;	
+}
+
+#submit_div{
+	padding-left: 135px;
+}
+
+.field{
+	padding-bottom: 10px;
+}

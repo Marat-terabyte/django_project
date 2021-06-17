@@ -1,0 +1,27 @@
+#welcome{
+	padding-top: 200px;
+	padding-left: 450px;
+}
+
+#reg{
+	padding-left: 400px;
+}
+
+#auth{
+	padding-left: 300px;
+}
+
+#links{
+	padding-top: 5px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+#c{
+	padding-left:395px;
+	padding-top: 150px;
+}
+
+#author{
+	padding-left:450px;
+}

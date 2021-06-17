@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'auth/CSS/style.css' %}"/>
+	<meta charset="utf-8"/>
+	<title>Авторизация</title>
+</head>
+<body>
+	<form method="POST">
+	{% csrf_token %}
+		<div id="forma">
+
+			<div class="inputs_div">
+				{{form.username}}
+			</div>
+
+			<div class="inputs_div"> 
+				{{form.password}}
+			</div>
+
+			<div id="submit_div">
+				<button type="submit">Авторизоваться</button>
+			</div>
+
+			<div id="link_div">
+				<a href="registration">Регистрация</a>
+			</div>
+
+		</div>
+	</form>
+</body>
+</html>
