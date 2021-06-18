@@ -113,7 +113,8 @@ class search_form(forms.Form):
 	search = forms.CharField(max_length = 250 , widget = forms.TextInput(attrs = {
 		'placeholder':'Поиск',
 		'type':'text',
-		'autocomplete':'off'
+		'autocomplete':'off',
+		'id':'search'
 		}))
 
 

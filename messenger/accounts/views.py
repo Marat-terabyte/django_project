@@ -132,6 +132,7 @@ def search_view(request):
 		forma = search_form(request.GET)
 		if forma.is_valid:
 			pass
+			#return HttpResponseRedirect('/account/succes_search')
 
 			
 	return render(request , 'search/index.html' , {'forma':forma})

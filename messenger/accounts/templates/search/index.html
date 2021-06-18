@@ -10,7 +10,14 @@
 <body>
 
 	<form method="GET">
-		<div>{{forma.search}}</div>
+		{% csrf_token %}
+		<div id="search_div">{{forma.search}}
+
+			<div>
+				<a href="{% url 'account' %}">{{user.first_name}} {{user.first_name}}</a>
+			</div>
+			
+		</div>
 	</form>
 
 
