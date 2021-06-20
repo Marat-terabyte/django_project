@@ -1,0 +1,21 @@
+#user{
+	padding-left: 1105px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+	border-bottom: 1px solid black;
+}
+
+.links{
+	padding-top: 5px;
+}
+
+#message{
+	padding-left: 500px;
+	padding-bottom: 15px;
+}
+
+#input_div{
+	padding-left: 500px;
+	padding-top: 400px;
+}

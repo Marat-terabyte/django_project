@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="{% static 'message/CSS/style.css' %}">
@@ -12,6 +12,7 @@
 		<p4>{{user.first_name}}</p4>
 		<p4>{{user.last_name}}</p4>
 	</div>
+
 	<div id="links_div">
 		<div class="links">
 			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
@@ -46,18 +47,19 @@
 			<a href="/admin">Админка</a>
 		</div>
 	</div>
-	<div>
+
+	
 		{% if model %}
 			{% for el in model %}
-				{{el.message}}
+				<div id="message">{{user.username}}:{{el.message}}</div>
 			{% endfor %}
 		{% endif %}
-	</div>
+	
 
 	<div>
 		<form method="POST">
 			{% csrf_token %}
-			{{forma.message}}
+			<div id="input_div">{{forma.message}}</div>
 		</form>
 	</div>
 </body>
